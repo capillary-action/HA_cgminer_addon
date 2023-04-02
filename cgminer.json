@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "slug": "cgminer-addon",
     "description": "CGMiner add-on for Home Assistant",
-    "url": "https://github.com/your_github_username/cgminer-addon",
+    "url": "https://github.com/capillary-action/homeassistant_cgminer_addon",
     "boot": "auto",
     "ports": {
       "4028/tcp": 4028
     },
     "options": {},
     "schema": {},
-    "image": "your_dockerhub_username/cgminer-addon"
+    "image": "capillaryaction/cgminer_solo_ckpool"
   }
   
