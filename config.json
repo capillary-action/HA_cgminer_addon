@@ -11,5 +11,5 @@
     },
     "options": {},
     "schema": {},
-    "image": "capillaryaction/cgminer_solo_ckpool:arm"
+    "image": "capillaryaction/homeassistant_cgminer_addon:arm"
 }
