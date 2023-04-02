@@ -1,15 +1,15 @@
 {
-    "name": "CGMiner",
+    "name": "CGMiner Add-on",
     "version": "1.0.0",
     "slug": "cgminer-addon",
-    "description": "CGMiner add-on for Home Assistant",
+    "description": "A Home Assistant add-on for CGMiner. Bitcoin lottery miner",
     "url": "https://github.com/capillary-action/homeassistant_cgminer_addon",
+    "startup": "before",
     "boot": "auto",
     "ports": {
-      "4028/tcp": 4028
+        "4028/tcp": 4028
     },
     "options": {},
     "schema": {},
-    "image": "capillaryaction/cgminer_solo_ckpool"
-  }
-  
+    "image": "capillaryaction/cgminer_solo_ckpool:arm"
+}
