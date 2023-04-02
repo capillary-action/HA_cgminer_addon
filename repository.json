@@ -8,7 +8,7 @@
       "description": "A Home Assistant add-on for CGMiner. Bitcoin lottery miner",
       "slug": "cgminer-addon",
       "url": "https://github.com/capillary-action/homeassistant_cgminer_addon.git",
-      "dir": "cgminer-addon"
+      "dir": "."
     }
   ]
 }
