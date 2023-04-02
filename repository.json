@@ -1,0 +1,14 @@
+{
+  "name": "Bitcoin lottery miner",
+  "url": "https://github.com/capillary-action/homeassistant_cgminer_addon.git",
+  "maintainer": "Daniel Scuereb <d.j.scuereb@gmail.com>",
+  "addons": [
+    {
+      "name": "CGMiner Add-on",
+      "description": "A Home Assistant add-on for CGMiner. Bitcoin lottery miner",
+      "slug": "cgminer-addon",
+      "url": "https://github.com/capillary-action/homeassistant_cgminer_addon.git",
+      "dir": "cgminer-addon"
+    }
+  ]
+}
