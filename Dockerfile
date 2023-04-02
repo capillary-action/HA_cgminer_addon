@@ -1,5 +1,5 @@
-# Use Ubuntu 20.04 as the base image
-FROM ubuntu:20.04
+# Use ARM architecture base image
+FROM arm32v7/ubuntu:20.04
 
 # Set the environment variable for non-interactive installation
 ENV DEBIAN_FRONTEND=noninteractive
