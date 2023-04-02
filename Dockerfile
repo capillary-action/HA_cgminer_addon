@@ -10,8 +10,7 @@ RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime && \
     dpkg-reconfigure --frontend noninteractive tzdata
 
 # Update the package list and install the required packages, including git
-RUN apt-get update && \
-    apt-get install -y \
+RUN apt-get install -y \
     build-essential \
     autoconf \
     automake \
@@ -22,6 +21,8 @@ RUN apt-get update && \
     libssl-dev \
     libgmp-dev \
     zlib1g-dev \
+    libncurses-dev \
+    libusb-1.0-0-dev \
     git
 
 # Clone the cgminer repository
