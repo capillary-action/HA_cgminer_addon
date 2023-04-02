@@ -30,7 +30,7 @@ RUN git clone https://github.com/ckolivas/cgminer.git /usr/src/cgminer
 # Build and install the cgminer
 RUN cd /usr/src/cgminer && \
     ./autogen.sh && \
-    ./configure --enable-gekko && \
+    ./configure --enable-icarus && \
     make && \
     make install
 
