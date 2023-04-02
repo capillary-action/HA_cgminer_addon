@@ -13,6 +13,14 @@ RUN apt-get update && \
     libncurses5-dev \
     libusb-1.0-0-dev \
     git
+    
+# Set the environment variable for non-interactive installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Set the default time zone
+RUN ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
+    apt-get update && apt-get install -y tzdata && \
+    dpkg-reconfigure --frontend noninteractive tzdata
 
 # Clone and build cgminer
 RUN git clone https://github.com/ckolivas/cgminer.git /cgminer && \
